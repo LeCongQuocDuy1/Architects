@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#header {
+    height: 54px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.header-content {
+    padding: 0 16px;
+    width: 100%;
+    letter-spacing: 4px;
+}
+
+.header-nav li a,
+.header-logo {
+    padding: 10px 16px;
+    line-height: 54px;
+    color: #000;
+    text-decoration: none;
+}
+
+.header-nav li a:hover,
+.header-logo:hover {
+    background-color: #ccc;
+}
+
+.header-nav {
+    float: right;
+    display: flex;
+}
+
+.header-nav li {
+    list-style-type: none;
+}
+
+#banner {
+    position: relative;
+    padding-top: 50%;
+    background: url(../images/architect.jpg) top center / cover no-repeat;
+}
+
+#banner .banner-content {
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+#banner .banner-heading {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+#banner .banner-heading span {
+    padding: 12px 14px;
+    background-color: #000;
+    opacity: 0.7;
+    margin-right: 16px;
+}
+
+.heading-section {
+    padding: 32px 0;
+
+}
+
+.heading-title {
+    padding: 26px 0;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.project-items {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.project-title {
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    padding: 8px 16px;
+    z-index: 1;
+}
+.project-img {
+    width: 100%;
+}
+
+.project-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.about-text {
+    margin-bottom: 46px;
+}
+
+.team-items {
+
+}
+
+.team-img {
+    width: 100%;
+}
+
+.team-content {
+
+}
+
+.team-name {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.team-jobs {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.team-desc {
+    margin: 15px 0;
+}
+
+.team-btn {
+    display: block;
+    margin: 15px 0;
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.team-btn:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.contact-text {
+    margin: 15px 0;
+}
+
+.contact-form {
+
+}
+
+.contact-input {
+    display: block;
+    padding: 10px;
+    margin: 16px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.contact-btn {
+    padding: 10px 16px;
+    margin: 16px 0;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.contact-btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.img-content {
+    width: 100%;
+    margin-top: 36px;
+}
+
+#footer {
+    margin-top: 5px;
+    background-color: #000;
+}
+
+.footer-text {
+    text-align: center;
+    color: #fff;
+    padding: 36px 0;
+}
+
+.footer-text a {
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
